@@ -1,0 +1,45 @@
+@mixin h-badge{
+    display: inline-block;
+    background-color:grey;
+    color:$h-text;
+    font-family: $font-primary;
+    width: 100px;
+    height: 25px;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+    padding:0.2rem;
+    @include h-h5;
+    @include h-shadow-2;
+}
+@mixin h-badge-primary{
+    background-color: $h-primary;
+    color:$h-white-text;
+    border:1px solid lighten($h-primary , 30%);
+}
+@mixin h-badge-secondary{
+    background-color: $h-secondary;
+    color:$h-white-text;
+    border:1px solid lighten($h-secondary , 30%);
+}
+
+@mixin h-badge-secondary-al{
+    background-color: $h-secondary-al;
+    color:$h-white-text;
+    border:1px solid lighten($h-secondary-al , 30%);
+}
+@mixin h-badge-success{
+    background-color: $h-success;
+    color:$h-white-text;
+    border:1px solid lighten($h-success , 30%);
+}
+@mixin h-badge-warning{
+    background-color: $h-warning;
+    color:$h-white-text;
+    border:1px solid lighten($h-warning , 30%);
+}
+@mixin h-badge-danger{
+    background-color: $h-danger;
+    color:$h-white-text;
+    border:1px solid lighten($h-danger , 30%);
+}

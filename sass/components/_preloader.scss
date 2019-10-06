@@ -1,0 +1,35 @@
+@mixin h-preloader{
+    width:75px;
+    height:75px;
+    background-color:transparent;
+    border-radius:50%;
+    border:2px solid #eee;
+    animation:spin 1s infinite linear;
+}
+
+@mixin h-preloader-primary{
+    border-top:3px solid $h-primary;
+}
+@mixin h-preloader-secondary{
+    border-top:3px solid $h-secondary;
+}
+
+@mixin h-preloader-secondary-al{
+    border-top:3px solid $h-secondary-al;
+}
+@mixin h-preloader-success{
+    border-top:3px solid $h-success;
+}
+@mixin h-preloader-warning{
+    border-top:3px solid $h-warning;
+}
+@mixin h-preloader-danger{
+    border-top:3px solid $h-danger;
+}
+@keyframes spin{
+    from{
+          transform: rotate(0deg);
+      }to{
+          transform: rotate(360deg);
+      }
+  }

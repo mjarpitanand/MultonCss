@@ -1,0 +1,47 @@
+
+// Abstracts for variables, function, mixins
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+
+// Vendors for external libraries like susy for grids
+@import 'vendors/library';
+
+// Base for reset browser defaults, typographics.
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/media';
+
+// Layout for standard resuable components.
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+@import 'layout/forms';
+
+// Components for basic building blocks like buttons, banners, breadcrumbs.
+@import 'components/buttons';
+@import 'components/carousel';
+@import 'components/slider';
+@import 'components/alerts';
+@import 'components/shadows';
+@import 'components/breadcrumb';
+@import 'components/toast';
+@import 'components/badges';
+@import 'components/toast';
+@import 'components/preloader';
+
+// Pages for page specific designs.
+@import 'pages/home';
+
+// Themes for themeing like dark, light, contrasts 
+@import 'themes/theme';
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}

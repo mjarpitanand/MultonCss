@@ -1,0 +1,23 @@
+{
+  "name": "heap-css",
+  "version": "1.0.0",
+  "description": "A small, responsive CSS material design library, you can use in every web project.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-sass --watch sass -o dist",
+    "prod" : "node-sass --watch sass/main.scss dist/main.min.css --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjarpitanand/heap-css.git"
+  },
+  "author": "Arpit anand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjarpitanand/heap-css/issues"
+  },
+  "homepage": "https://github.com/mjarpitanand/heap-css#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

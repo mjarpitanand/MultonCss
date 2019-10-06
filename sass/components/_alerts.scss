@@ -1,0 +1,38 @@
+@mixin h-alert{
+    display: block;
+    background-color:grey;
+    color:$h-text;
+    font-family: $font-primary;
+    padding:1rem;
+}
+@mixin h-alert-primary{
+    background-color: $h-primary;
+    color:$h-white-text;
+    border:1px solid lighten($h-primary , 30%);
+}
+@mixin h-alert-secondary{
+    background-color: $h-secondary;
+    color:$h-white-text;
+    border:1px solid lighten($h-secondary , 30%);
+}
+
+@mixin h-alert-secondary-al{
+    background-color: $h-secondary-al;
+    color:$h-white-text;
+    border:1px solid lighten($h-secondary-al , 30%);
+}
+@mixin h-alert-success{
+    background-color: $h-success;
+    color:$h-white-text;
+    border:1px solid lighten($h-success , 30%);
+}
+@mixin h-alert-warning{
+    background-color: $h-warning;
+    color:$h-white-text;
+    border:1px solid lighten($h-warning , 30%);
+}
+@mixin h-alert-danger{
+    background-color: $h-danger;
+    color:$h-white-text;
+    border:1px solid lighten($h-danger , 30%);
+}

@@ -1,0 +1,61 @@
+@mixin h-btn{
+    outline:0;
+    font-family: $font-primary;
+    border-radius:2px;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    text-decoration: none;
+    @include h-h5;
+    text-align: center;
+    height:36px;
+    padding:0 16px;
+    @include h-shadow-2;
+}
+@mixin h-btn-lg{
+    height:54px;
+    padding:0 28px;
+}
+@mixin h-btn-primary{
+    background-color: $h-primary;
+    color:$h-white-text;
+    &:hover{
+        background-color: darken($h-primary, 10%);
+    }
+}
+@mixin h-btn-secondary{
+    background-color: $h-secondary;
+    color:$h-white-text;
+    &:hover{
+        background-color: darken($h-secondary, 10%);
+    }
+}
+
+@mixin h-btn-secondary-al{
+    background-color: $h-secondary-al;
+    color:$h-white-text;
+    &:hover{
+        background-color: darken($h-secondary-al, 10%);
+    }
+}
+@mixin h-btn-success{
+    background-color: $h-success;
+    color:$h-white-text;
+    &:hover{
+        background-color: darken($h-success, 10%);
+    }
+}
+@mixin h-btn-warning{
+    background-color: $h-warning;
+    color:$h-white-text;
+    &:hover{
+        background-color: darken($h-warning, 10%);
+    }
+}
+@mixin h-btn-danger{
+    background-color: $h-danger;
+    color:$h-white-text;
+    &:hover{
+        background-color: darken($h-danger, 10%);
+    }
+}
